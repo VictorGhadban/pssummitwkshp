@@ -6,7 +6,7 @@
 - Add the following policies to your execution role
     - AWSCodeBuildAdminAccess
     - CloudWatchFullAccess
-    - EC2InstanceProfileForImageBuilderECRContainerBuilds
+    - EC2InstanceProfileForImageBuilderECRContainerBuilds  (Note that the policy name will be truncated in the console screen)
 - Add an inline policy and name it "codebuild-passthru"
 ```
 {
